@@ -7,7 +7,8 @@
 
 1. dataset.py
   Pytorch DataLoader 구축 후 잘 설정되었는지 확인
-  
+<pre>
+<code>
     if __name__ == '__main__':
       dir = "./data"
       transform = transforms.Compose([
@@ -21,3 +22,5 @@
           print(label)
           import sys;
           sys.exit(0)
+</code>
+</pre>
